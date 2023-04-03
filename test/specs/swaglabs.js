@@ -58,7 +58,6 @@ describe("Functional Test", () => {
     await browser.pause(2000);
 
     const complete = await browser.$('.complete-header');
-    await expect(complete).toBeDisplayed();
     await expect(complete).toHaveText('Thank you for your order!');
     await expect(complete).toBeDisplayed();
   });

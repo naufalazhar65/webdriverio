@@ -1,0 +1,6 @@
+{
+  "script": "return (async checkMessage(msg){\n        await expect($(this.checkMessage)).toHaveTextContaining(msg)\n    }).apply(null, arguments)",
+  "args": [
+    null
+  ]
+}
