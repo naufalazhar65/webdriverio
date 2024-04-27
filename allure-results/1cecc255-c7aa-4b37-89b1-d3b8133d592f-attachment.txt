@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "[class=\"progress\"] [class=\"progress-bar__text\"]"
+}

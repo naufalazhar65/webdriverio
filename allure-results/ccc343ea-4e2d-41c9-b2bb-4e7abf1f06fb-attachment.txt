@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[text()=\"WebdriverIO · Next-gen browser and mobile automation test ...\"]"
+}

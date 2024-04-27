@@ -61,9 +61,9 @@ exports.config = {
         browserName: 'chrome',
         'goog:chromeOptions': {
             args: [
-            '--headless',
+            // '--headless',
             '--disable-gpu', 
-            '--silent'
+            '--silent',
         ]
         },
         
@@ -82,7 +82,7 @@ exports.config = {
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     // logLevel: 'info',
-    logLevel: 'silent',
+    logLevel: 'info',
 
     //
     // Set specific log levels per logger
